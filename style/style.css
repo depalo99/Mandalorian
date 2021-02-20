@@ -1,0 +1,110 @@
+body{
+	 background: linear-gradient(black, white);
+	 color:#566573;
+	 font-size: 17px;
+	 font-family: Arial, serif;
+
+	}
+
+
+
+h1 {
+	color: white;
+	font-size: 35px;
+	font-family: Verdana;
+	text-align: center;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+h2{
+	color: #212F3C
+	font-size: 35px;
+	font-family:Verdana;
+}
+
+li{
+	color: #566573;
+	font-size:17px;
+	font-family: Arial, serif;
+	line-height:1.4;
+	list-style-type:square;
+}
+
+img{
+	vertical-align: middle;
+	max-width: 100%
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 800px;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container > div {
+	flex-basis: 50%
+}
+
+.img-col{
+	flex-basis: 40%
+}
+
+.quote{
+	font-style:italic;
+	font-size: 25px;
+	font-family: Arial;
+	
+}
+
+.who{
+	font-style:normal;
+	font-size: 20px;
+}
+.logo{
+	vertical-align: middle;
+}
+
+.nav{
+	text-align:center;
+	color:#FDFEFE;
+	font-size:20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.nav li {
+	list-style-type: none;
+	display:inline;
+
+}
+
+.footer{
+	font-size:12px;
+	text-align: center;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width:80%;
+}
+
+/* Visited Link*/
+a:visited, a:active, a:link {
+	color: white;
+	text-decoration:none;
+}
+
+/*Hover Color*/
+
+a:hover{
+	color:#F39C12;
+}
